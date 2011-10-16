@@ -79,6 +79,9 @@ describe Superhero do
   #
   subject { Superhero.new "Batman", "Gotham City", joker }
   
+  it "should have a name" do
+    subject.should respond_to :name
+  end
   
   it "should have the correct name" do
     

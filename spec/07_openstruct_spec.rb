@@ -21,7 +21,11 @@ describe "Current Administration" do
     # This last line has `administration` so that it is returned as the subject
     administration
   end
-
+  
+  it "should have a president" do
+    subject.should respond_to :president
+    
+  end
 
   it "should report the correct President" do
     subject.president.should == "Barack Obama"
