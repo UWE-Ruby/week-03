@@ -16,7 +16,7 @@ Repetition is the key to success. The exercises proposed this week again ask you
 
 * Use HighLine to make a simple quiz
 
-### Web
+#### Web
 
 * Use Sinatra to create a simple website
 
@@ -139,16 +139,8 @@ Bonuses:
 
 * Use view templates
 * Use a route pattern
-* Stylesheets and Javascript (if you know are comfortable with it)
+* Stylesheets and Javascript (if you are comfortable with them)
 
-Your quiz could take the form of a survey, setting up a dating profile, Ruby language test, etc.
-
-Bonuses:
-
-* Use the results that the user has given you to calculate a result
-* Answers that fork to a different question based on the previous response
-* Answer validation (for those open ended questions)
-* Use colors
 
 ##### Getting Started
 
@@ -168,10 +160,11 @@ $ ruby lib/sinatra.rb
 
     NOTE: Window's users need to use a backslash \ instead of forward slashes /
 
-It should launch a website on `localhost:4567` that if you visit in your browser. When that is working for you open up `lib/sinatra.rb` and look at the syntax. Again this strange sense of deja-vu when looking at the code.
+It should launch a website on `localhost:4567` that if you visit in your browser. When that is working for you open up `lib/sinatra.rb` and look at the syntax. Again you may have a strange sense of deja-vu when looking at the code.
 
 Look at the [documentation](http://www.sinatrarb.com/intro.html) and create some of your own routes and play with parameters.
 
+To exit the sinatra process in your terminal, use Ctrl-C.
 
 ## Exploration
 
