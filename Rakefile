@@ -9,7 +9,7 @@ end
 
 desc "Run the sample Sinatra sample"
 task :sinatra do
-  system "bundle exec sinatra lib/sinatra.rb"
+  system "bundle exec ruby lib/sinatra.rb"
 end
 
 desc "Run the HighLine sample"
