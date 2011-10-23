@@ -34,7 +34,7 @@ describe "Boolean", "refresher" do
     
   end
   
-  context "when proceeded with a ! (bang)" do
+  context "when preceded with a ! (bang)" do
     
     it "should reverse the value from true to false" do
       
@@ -59,7 +59,7 @@ describe "Boolean", "refresher" do
     
   end
   
-  context "when proceeded with !! (bang-bang)" do
+  context "when preceded with !! (bang-bang)" do
     
     it "should convert any 'truthy' value to a true" do
       
